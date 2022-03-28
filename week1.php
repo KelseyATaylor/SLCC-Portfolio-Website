@@ -10,12 +10,16 @@
     <?php
         $greeting = "Hello World!";
         echo $greeting;
+        echo "<br>";
         $variableOne = 1;
         $variableTwo = 2;
 
         echo $variableOne + $variableTwo;
+        echo "<br>";
         echo $variableOne - $variableTwo;
+        echo "<br>";
         echo $variableOne * $variableTwo;
+        echo "<br>";
         echo $variableOne / $variableTwo;
     ?>
 </body>
