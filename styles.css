@@ -1,0 +1,84 @@
+/* table {
+  border: 4.5px double;
+}
+
+td {
+  border-bottom: 1px solid;
+  padding: 5px;
+} */
+
+body {
+	background-color: #ffe2d6;
+}
+
+.header {
+	background-color: #899178;
+	padding: 10px;
+}
+
+.logo-link {
+	display: flex;
+	justify-content: center;
+}
+
+#logo {
+	width: 25%;
+	margin: -75px 10px -75px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #343434;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.nav a:hover {
+	color: #f8b4b4;
+	transition: 0.4s;
+}
+
+.profile-image {
+	height: 30%;
+	width: 30%;
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.name {
+	background-image: url(assets/sharon-unsplash.jpg);
+	/* Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sharon McCutcheon</a> on <a href="https://unsplash.com/s/photos/pink?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 400%;
+	color: #343434;
+}
+
+.name-text-flex {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+#hello-name {
+	font-size: 150%;
+	margin-bottom: 2%;
+}
+
+#hello-qa {
+	margin-top: 2%;
+}
+
+.education {
+	background-color: #899178;
+}

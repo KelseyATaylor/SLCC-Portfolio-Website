@@ -1,0 +1,27 @@
+.nav-text {
+	text-transform: uppercase;
+}
+
+.main-header {
+	background-image: url(assets/sharon-mccutcheon-unsplash-3-cropped.jpg);
+	height: 100vh;
+	min-height: 40em;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.profile-image {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.font-changes {
+}
+
+a {
+	text-decoration: none;
+}
