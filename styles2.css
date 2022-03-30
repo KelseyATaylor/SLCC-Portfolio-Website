@@ -4,7 +4,7 @@
 
 .main-header {
 	background-image: url(assets/sharon-mccutcheon-unsplash-3-cropped.jpg);
-	height: 100vh;
+	height: 80vh;
 	min-height: 40em;
 	background-size: cover;
 	background-position: center;
@@ -24,4 +24,17 @@
 
 a {
 	text-decoration: none;
+}
+
+.purple-color {
+	background-color: #998c95;
+}
+
+.green-color {
+	/* background-color: #c5e1d4; */
+	background-color: #7d998a;
+}
+
+.blue-color {
+	background-color: #d7e3fc;
 }
