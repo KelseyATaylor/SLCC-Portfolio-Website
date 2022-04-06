@@ -66,7 +66,7 @@
 			<hr />
 		</div>
 
-		<div>
+		<!-- <div>
 			<h4>Technical Skills</h4>
 			<ul>
 				<li>HTML</li>
@@ -75,7 +75,19 @@
 				<li>PHP</li>
 			</ul>
 			<hr />
-		</div>
+		</div> -->
+		<?php
+$mySkills = ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'];
+function newList($skillsArray){
+echo 'My Skills Include: <ul class="d-inline-block font-weight-light text-left">';
+foreach($skillsArray as $value){
+    echo '<li>' . $value . '</li>';
+} 
+echo '</ul>';
+}
+
+newList($mySkills);
+?>
 
 		<div>
 			<h4>Core Competencies</h4>
